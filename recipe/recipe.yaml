@@ -32,11 +32,11 @@ requirements:
     - hatch-vcs
   run:
     - python >=${{ python_min }}
-    - google-api-python-client >=2.201.0
-    - google-auth >=2.60.0
+    - google-api-python-client >=2.202.0
+    - google-auth >=2.63.0
     - google-auth-oauthlib >=1.5.0
-    - sqlalchemy >=2.0.54
-    - mailsort >=0.0.4
+    - mailsort >=0.0.6
+    - sqlalchemy >=2.1.9
 tests:
   - python:
       imports:
