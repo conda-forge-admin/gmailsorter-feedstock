@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: gmailsorter
-  version: "0.2.1"
+  version: "0.2.2"
   python_min: '3.12'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/gmailsorter-${{ version }}.tar.gz
-  sha256: 880a3f39794a3a4f28768c9ce251c51391888c5dd5a5a145bbea0a6cac8a0301
+  sha256: 293439a09dc72c807adbc5901ec63ea98a8485691300f51da1242c008a186f99
 
 build:
   number: 0
